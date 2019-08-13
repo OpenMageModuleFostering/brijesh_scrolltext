@@ -1,0 +1,25 @@
+<layout version="0.1.0">
+	<default>
+
+		<!-- <reference name="content">
+			<block type="scrolltext/scrolltextblock" name="scrolltext_block"
+				template="scrolltext/scrolltext.phtml" />
+		</reference> -->
+
+		<reference name="left">
+            <block type="scrolltext/scrolltext" name="scrolltext.sidebar.left" before="-">
+                <action method="leftSidebarBlock" />
+            </block>
+        </reference>
+        <reference name="right">
+            <block type="scrolltext/scrolltext" name="scrolltext.sidebar.right" before="-">
+                <action method="rightSidebarBlock" />
+            </block>
+        </reference>
+        <reference name="footer">
+            <block type="scrolltext/scrolltext" name="scrolltext.sidebar.footer" before="-">
+                <action method="footerBlock" />
+            </block>
+        </reference>	
+	</default>
+</layout>

@@ -1,0 +1,43 @@
+
+<?php
+
+	$title = Mage::getStoreConfig('scrolltext_sections/scrolltext_group/scrolltext_title');
+	$scrollcontent = Mage::getStoreConfig('scrolltext_sections/scrolltext_group/scrolltext_content_text');
+	$scrolldirection = Mage::getStoreConfig('scrolltext_sections/scrolltext_group/scrolltext_direction');
+	$scrollPosition = Mage::getStoreConfig('scrolltext_sections/scrolltext_group/scrolltext_position');
+?>
+
+
+<?php
+	if($scrollPosition == 'footer'){
+?>
+
+<div class="links">
+	<div class="block-title">
+		<strong>
+			<span><?php echo $title; ?></span>
+		</strong>
+	</div>
+	<p><?php echo $scrollcontent; ?></p>
+</div>
+
+<?php
+
+
+	}else{
+?>
+<div class="block-title">
+	<strong>
+		<span><?php echo $title; ?></span>
+	</strong>
+</div>
+
+<div class="block-content">
+	<marquee behavior="scroll" scrollAmount="2" direction="<?php echo $scrolldirection; ?>"><?php echo $scrollcontent; ?></marquee>
+</div>
+<?php
+	}
+?>
+
+
+

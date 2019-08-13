@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Brijesh_Scrolltext</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Highlight news, links or any content that you want to highlight on the page using scrolling effect.</summary>
+    <description>This extension allows to create scrolling text that can be displayed on frontend of your store.&#xD;
+&#xD;
+The extensions can be used to display news, links or any content that you want to highlight on the page.&#xD;
+&#xD;
+Display of title and content is matched with sidebar and footer links respectively.&#xD;
+&#xD;
+Options to set title&#xD;
+Options to set content&#xD;
+Options to set position (right, left or footer)&#xD;
+Two direction scrolling, select to scroll up or scroll down.&#xD;
+&#xD;
+&#xD;
+Note: Scrolling feature is disabled in footer section&#xD;
+Note: If you click on scroll text options in System Configuration and it shows "404 Error Page not found".  Simply logout and login.  This happens because system has not yet updated configuration.&#xD;
+&#xD;
+ </description>
+    <notes>Later after testing</notes>
+    <authors><author><name>Brijesh Mishra</name><user>brijeshmkt</user><email>brijeshmkt@gmail.com</email></author></authors>
+    <date>2014-11-08</date>
+    <time>20:50:48</time>
+    <contents><target name="magelocal"><dir name="Brijesh"><dir name="Scrolltext"><dir name="Block"><file name="Scrolltext.php" hash="d3e9572de76d6e5522a7991d51d53fce"/><file name="Scrolltextblock.php" hash="8db7d7c0cca3872b479f017c8d5e419e"/><file name="Scrolltextsidebar.php" hash="dda116fa92cde220e2628f3aa6676652"/></dir><dir name="Helper"><file name="Data.php" hash="415a88c31d33392b321be6e025015a1b"/></dir><dir name="Model"><dir name="System"><dir name="Config"><file name="Direction.php" hash="3881bfc09677dda042992f07d7db0a40"/><file name="Position.php" hash="e97be197e57b386e194def0610677190"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="132cee87577c13b2a7e2b155aac96240"/></dir><dir name="etc"><file name="config.xml" hash="cde65ba6c4bc1bc139fca8938e91922d"/><file name="system.xml" hash="94a7ca8a122fe3d027f7afcbb515ccd5"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="scrolltext.xml" hash="1bdac0adf986257311faf7b471472298"/></dir><dir name="template"><dir name="scrolltext"><file name="scrolltext.phtml" hash="8ae753367265c2286e56e1c98ba58150"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Brijesh_Scrolltext.xml" hash="d43093ef76dac2db386cde021e2bfe4b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
