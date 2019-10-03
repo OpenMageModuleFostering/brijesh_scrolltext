@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Brijesh_Scrolltext",
+    "name": "openmage-module-fostering\/brijesh_scrolltext",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Highlight news, links or any content that you want to highlight on the page using scrolling effect.",
     "authors": [
