@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Brijesh_Scrolltext",
+    "name": "OpenMageModuleFostering\/Brijesh_Scrolltext",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Highlight news, links or any content that you want to highlight on the page using scrolling effect.",
     "authors": [
-    {
-        "name": "Brijesh Mishra",
-        "email": "brijeshmkt@gmail.com"
-    }
-],
+        {
+            "name": "Brijesh Mishra",
+            "email": "brijeshmkt@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
